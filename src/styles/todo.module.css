@@ -1,0 +1,90 @@
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  height: 100vh;
+  background-color: rgb(6, 0, 37);
+  width: 100vw;
+  background-size: contain;
+}
+
+img {
+  height: 20vh;
+  width: 100%;
+}
+
+.imagediv {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  min-height: 30vh;
+  min-width: 200px;
+  /* border: 1px solid black; */
+}
+
+.addItem {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+
+  border: none;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+}
+
+.addedItem:hover {
+  background-color: rgb(105, 3, 148);
+  color: white;
+}
+/* margin-left: 20px; */
+
+h3 {
+  padding: 0;
+  margin: 0;
+}
+
+.addItem input {
+  width: 100%;
+  padding: 10px;
+  /* margin-left: 10px; */
+  border: none;
+  outline: none;
+}
+
+.addBtn {
+  padding: 10px;
+  border: none;
+  color: green;
+  background-color: white;
+}
+
+.list {
+  width: 300px;
+  margin-top: 2rem;
+
+  height: 30vh;
+}
+
+.addedItem {
+  display: flex;
+  margin-top: 10px;
+  justify-content: space-between;
+  border: none;
+  width: 300px;
+  background-color: white;
+  padding: 7px 0px 7px 0px;
+  border-radius: 3px;
+}
+
+.deleteBtn {
+  background-color: inherit;
+  border: none;
+  padding-inline: 10px;
+  color: rgb(249, 69, 69);
+}
